@@ -1,0 +1,44 @@
+{
+  "name": "nutrifyi-embed",
+  "version": "1.0.0",
+  "description": "Embed NutriFYI widgets — food nutrition facts, BMI calculator, macro badges. 15,236 foods, USDA data. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "nutrition",
+    "food",
+    "calories",
+    "macros",
+    "protein",
+    "usda",
+    "diet",
+    "bmi",
+    "embed",
+    "widget",
+    "nutrifyi",
+    "nutrifyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "healthfyi"
+  ],
+  "homepage": "https://widget.nutrifyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/nutrifyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/nutrifyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
