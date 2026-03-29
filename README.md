@@ -159,6 +159,17 @@ Part of [FYIPedia](https://fyipedia.com) — open-source developer tools ecosyst
 | holidayfyi | [PyPI](https://pypi.org/project/holidayfyi/) | [npm](https://www.npmjs.com/package/holidayfyi) | Holiday dates & Easter calculation — [holidayfyi.com](https://holidayfyi.com) |
 | fyipedia | [PyPI](https://pypi.org/project/fyipedia/) | — | Unified CLI for all FYI tools — [fyipedia.com](https://fyipedia.com) |
 
+## Embed Widget
+
+Embed [NutriFYI](https://nutrifyi.com) widgets on any website with [nutrifyi-embed](https://widget.nutrifyi.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/nutrifyi-embed@1/dist/embed.min.js"></script>
+<div data-nutrifyi="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.nutrifyi.com)
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
