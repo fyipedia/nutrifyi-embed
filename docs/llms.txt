@@ -1,0 +1,26 @@
+# NutriFYI Embed Widget
+
+> Embeddable NutriFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/nutrifyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://nutrifyi.com
+- Widget docs: https://widget.nutrifyi.com
+- npm: https://www.npmjs.com/package/nutrifyi-embed
+- GitHub: https://github.com/fyipedia/nutrifyi-embed
+- API: https://nutrifyi.com/developers/
+
+## Health FYI Widget Family
+
+- [AnatomyFYI Widget](https://widget.anatomyfyi.com)
+- [PillFYI Widget](https://widget.pillfyi.com)
+- [DrugFYI Widget](https://widget.drugfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
