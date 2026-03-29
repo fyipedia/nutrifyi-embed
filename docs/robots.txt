@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# NutriFYI Embed Widget
+# Main site: https://nutrifyi.com
+# Widget docs: https://widget.nutrifyi.com
+# npm: https://www.npmjs.com/package/nutrifyi-embed
