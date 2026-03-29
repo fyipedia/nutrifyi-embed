@@ -1,21 +1,52 @@
 # NutriFYI Embed Widget
 
-> Embeddable NutriFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Nutrition data, food composition. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/nutrifyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/nutrifyi-embed@1/dist/embed.min.js"></script>
+<div data-nutrifyi="bmi-calculator" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- entity: `data-nutrifyi="entity"`
+- glossary: `data-nutrifyi="glossary"`
+- guide: `data-nutrifyi="guide"`
+- compare: `data-nutrifyi="compare"`
+- search: `data-nutrifyi="search"`
+- faq: `data-nutrifyi="faq"`
+- bmi-calculator (interactive): `data-nutrifyi="bmi-calculator"`
+- nutrition-label (interactive): `data-nutrifyi="nutrition-label"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-nutrifyi="bmi-calculator" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/nutrifyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://nutrifyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://nutrifyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://nutrifyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://nutrifyi.com
 - Widget docs: https://widget.nutrifyi.com
-- npm: https://www.npmjs.com/package/nutrifyi-embed
+- API documentation: https://nutrifyi.com/developers/
+- npm package: https://www.npmjs.com/package/nutrifyi-embed
 - GitHub: https://github.com/fyipedia/nutrifyi-embed
-- API: https://nutrifyi.com/developers/
 
-## Health FYI Widget Family
+## Health FYI Widget Network
 
 - [AnatomyFYI Widget](https://widget.anatomyfyi.com)
 - [PillFYI Widget](https://widget.pillfyi.com)
